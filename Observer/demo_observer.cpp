@@ -72,11 +72,11 @@ public:
     }
     void show()
     {
-        cout<<"_____CurrentConditionBoard_____"<<endl;
-        cout<<"humidity: "<<m_h<<endl;
-        cout<<"temperature: "<<m_t<<endl;
-        cout<<"pressure: "<<m_p<<endl;
-        cout<<"_______________________________"<<endl;
+        cout << "_____CurrentConditionBoard_____" << endl;
+        cout << "humidity: " << m_h << endl;
+        cout << "temperature: " << m_t << endl;
+        cout << "pressure: "<< m_p << endl;
+        cout << "_______________________________" << endl;
     }
     void update(float h, float t, float p)
     {
@@ -100,11 +100,11 @@ public:
     }
     void show()
     {
-        cout<<"________StatisticBoard_________"<<endl;
-        cout<<"lowest  temperature: "<<m_mint<<endl;
-        cout<<"highest temperature: "<<m_maxt<<endl;
-        cout<<"average temperature: "<<m_avet<<endl;
-        cout<<"_______________________________"<<endl;
+        cout << "________StatisticBoard_________" << endl;
+        cout << "lowest  temperature: " << m_mint << endl;
+        cout << "highest temperature: " << m_maxt << endl;
+        cout << "average temperature: " << m_avet << endl;
+        cout << "_______________________________" << endl;
     }
     void update(float h, float t, float p)
     {
